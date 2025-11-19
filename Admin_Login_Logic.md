@@ -1,4 +1,4 @@
-# 1.0 Login Screen Logic
+# 1.0 Login Screen Logic (Unified Role-Based)
 
 ## Login UI Elements
 
@@ -39,7 +39,10 @@
     *   Red text color for error messages
 
 *   **Form Submission**
-    *   On successful login: redirect to `/Admin/Dashboard`
+    *   On successful login: system determines user role and redirects accordingly
+        *   Admin role → redirects to `/Admin/Dashboard`
+        *   Teacher role → redirects to `/Teacher/Dashboard`
+        *   Student role → redirects to `/Student/Dashboard`
     *   On failed login: display error message and remain on login page
     *   Clear password field on failed attempt
 
