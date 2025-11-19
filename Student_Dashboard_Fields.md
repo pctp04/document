@@ -1,8 +1,7 @@
 # 10.0 Student Dashboard Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Student Name | string | - | - | Display | - | - | - | `Chisa Kuchiha` | Student's full name displayed in welcome banner. |
 | 2 | Grade Level | string | - | - | Display | - | - | - | `Grade - 10A` | Student's grade level and section. |
 | 3 | Overall Average | decimal | - | - | Display | - | Calculated | - | `87.5` | Overall grade average across all subjects. Shows dash "-" if no grades available. |

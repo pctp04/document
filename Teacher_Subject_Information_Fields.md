@@ -1,8 +1,7 @@
 # 8.0 Subject Information Page (Teacher) Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Search Input | string | 0 | 255 | Text Input | No | - | - | `mathematics` | Search by subject name or code. Real-time filtering. |
 | 2 | Subject Filter | integer | - | - | Dropdown | No | All Subjects | - | `1` | Filter by specific subject. Shows all assigned subjects. |
 | 3 | Curriculum Filter | integer | - | - | Dropdown | No | All Curriculums | - | `1` | Filter subjects by curriculum. |

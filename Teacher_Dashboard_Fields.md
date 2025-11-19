@@ -1,8 +1,7 @@
 # 7.0 Teacher Dashboard Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Assigned Subjects Count | integer | - | - | Display | - | Calculated | - | `5` | Count of subjects assigned to logged-in teacher. |
 | 2 | Total Students | integer | - | - | Display | - | Calculated | - | `75` | Total count of students across all assigned subjects/curriculums. |
 | 3 | Total Assessments | integer | - | - | Display | - | Calculated | - | `25` | Total number of assessments recorded. |

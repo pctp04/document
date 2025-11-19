@@ -1,8 +1,7 @@
 # 3.0 Teacher Management Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Search Input | string | 0 | 255 | Text Input | No | - | - | `john` | Search by teacher name, username, or assigned subjects. Real-time filtering. |
 | 2 | Status Filter | string | - | - | Dropdown | No | All Status | - | `Active` | Filter by Active or Inactive status. Options: All Status, Active, Inactive. |
 | 3 | Sort By | string | - | - | Dropdown | No | Name (A-Z) | - | `Name (A-Z)` | Sort options: Name (A-Z), Name (Z-A), ID (Low to High), ID (High to Low), Age (Low to High), Age (High to Low). |

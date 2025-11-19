@@ -1,8 +1,7 @@
 # 12.0 Student Profile Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Profile Picture | string | - | - | Image | - | - | URL | `https://...` | Student's profile picture displayed in circular format. |
 | 2 | Change Photo Button | - | - | - | Button | - | - | - | - | Button with upload icon to change profile picture. |
 | 3 | Full Name | string | - | - | Text Input/Display | - | - | - | `Chisa Kuchiha` | Student's full name. Read-only in view mode, editable in edit mode. |

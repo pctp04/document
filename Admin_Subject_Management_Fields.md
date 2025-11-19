@@ -1,8 +1,7 @@
 # 5.0 Subject Management Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Search Input | string | 0 | 255 | Text Input | No | - | - | `math` | Search by subject code or name. Real-time filtering. |
 | 2 | Code Filter | string | - | - | Dropdown | No | All Codes | - | `701` | Filter by subject code prefix. Options: All Codes, 701, 801, 901, 1001. |
 | 3 | Status Filter | string | - | - | Dropdown | No | All Status | - | `Active` | Filter by Active or Inactive status. Options: All Status, Active, Inactive. |

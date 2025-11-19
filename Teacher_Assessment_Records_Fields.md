@@ -1,8 +1,7 @@
 # 9.0 Assessment Records Page (Teacher) Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Subject Filter | integer | - | - | Dropdown | No | All Subjects | - | `1` | Filter assessments by subject. Shows all assigned subjects. |
 | 2 | Assessment Type Filter | string | - | - | Dropdown | No | All Types | - | `Quiz` | Filter by assessment type. Options: All Types, Quiz, Exam, Assignment, Project, Other. |
 | 3 | Date Range Filter | date | - | - | Date Range Input | No | - | Date Range | `2024-01-01 to 2024-01-31` | Filter assessments by date range. |

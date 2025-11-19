@@ -1,8 +1,7 @@
 # 2.0 Admin Dashboard Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Total Teachers | integer | - | - | Display | - | Calculated | - | `25` | Count of all teachers in system (active and inactive). |
 | 2 | Active Teachers | integer | - | - | Display | - | Calculated | - | `23` | Count of active teachers only. |
 | 3 | Inactive Teachers | integer | - | - | Display | - | Calculated | - | `2` | Count of inactive teachers. Displayed only if greater than 0. |

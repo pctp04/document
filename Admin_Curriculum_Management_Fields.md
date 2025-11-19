@@ -1,8 +1,7 @@
 # 6.0 Curriculum Management Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Search Input | string | 0 | 255 | Text Input | No | - | - | `science` | Search by curriculum name or code. Real-time filtering. |
 | 2 | Grade Level Filter | integer | - | - | Dropdown | No | All Grades | - | `7` | Filter by grade level. Options: All Grades, Grade 7, Grade 8, Grade 9, Grade 10. |
 | 3 | Status Filter | string | - | - | Dropdown | No | All Status | - | `Active` | Filter by Active or Inactive status. Options: All Status, Active, Inactive. |

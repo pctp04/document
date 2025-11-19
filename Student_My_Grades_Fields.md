@@ -1,8 +1,7 @@
 # 11.0 My Grades Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Student Name | string | - | - | Display | - | - | - | `Chisa Kuchiha` | Student's full name displayed in banner. |
 | 2 | Grade Level | string | - | - | Display | - | - | - | `Grade - 10A` | Student's grade level and section. |
 | 3 | Term Filter | string | - | - | Dropdown | No | All Terms | - | `All Terms` | Filter grades by term. Options: All Terms, Prelim, Midterm, Semifinal, Final. |

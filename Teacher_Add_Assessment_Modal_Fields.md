@@ -1,8 +1,7 @@
 # 9.1 Add New Assessment Modal (Teacher) Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Assessment Title | string | 1 | 200 | Text Input | Yes | - | - | `Chapter 5 Quiz` | Title of the assessment. Placeholder: "Enter assessment title". |
 | 2 | Assessment Type | string | - | - | Dropdown | Yes | - | - | `Quiz` | Type of assessment. Options: Quiz, Exam, Assignment, Project, Other. Required selection. |
 | 3 | Subject Selection | integer | - | - | Dropdown | Yes | - | - | `1` | Select subject for assessment. Shows only subjects assigned to teacher. Required. |

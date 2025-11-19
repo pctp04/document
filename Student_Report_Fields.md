@@ -1,8 +1,7 @@
 # 13.0 Student Report Screen Fields
 
-| No. | FIELD NAME | DATA TYPE | LENGTH | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
-|-----|------------|-----------|--------|------------|----------|--------------|---------------|---------|---------|
-| | | MIN | MAX | | | | | | |
+| No. | FIELD NAME | DATA TYPE | LENGTH<br>MIN | LENGTH<br>MAX | FIELD TYPE | REQUIRED | DEFAULT VALUE | DISPLAY FORMAT | EXAMPLE | REMARKS |
+|-----|------------|-----------|--------|--------|------------|----------|--------------|---------------|---------|---------|
 | 1 | Student Name | string | - | - | Display | - | - | - | `Chisa Kuchiha` | Student's full name displayed in report header. |
 | 2 | Report Title | string | - | - | Display | - | - | - | `Student Report` | Title of the report page. |
 | 3 | Term Filter | string | - | - | Dropdown | No | All Periods | - | `All Periods` | Filter report by term. Options: All Periods, Prelim, Midterm, Semifinal, Final. |
